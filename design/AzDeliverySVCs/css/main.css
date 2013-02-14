@@ -107,7 +107,7 @@ z-index:1000;
 	position:absolute;
 }
 
-#intro-1{
+#intro-1a{
 	allign:left;
 	position:absolute;
 	top:-40px;
@@ -115,6 +115,23 @@ z-index:1000;
 	width:200px;
 	margin:5px;
 }
+#intro-1b{
+	allign:left;
+	position:absolute;
+	top:95px;
+	right:750px;
+	width:200px;
+	margin:5px;
+}
+#intro-1c{
+	allign:left;
+	position:absolute;
+	top:265px;
+	right:750px;
+	width:200px;
+	margin:5px;
+}
+
 
 #banner-2{
 	top:50px;
@@ -206,11 +223,12 @@ z-index:1000;
 /* about page elements  */
 
 #main-title-2{
-	font-size:28px;
+	font-size:36px;
 	top:-40px;
 	position:relative;
 	right:0px;
-	left:425px;
+	left:445px;
+
 }
 
 #title-a1{
@@ -234,7 +252,7 @@ z-index:1000;
 #title-a2{
 	float:center;
 	position:absolute;
-	top:170px;
+	top:200px;
 	left:215px;
 	right:0px;
 	z-index:0;
@@ -242,7 +260,7 @@ z-index:1000;
 
 #intro-1-b{
 	float:center;
-	top:210px;
+	top:225px;
 	right:0px;
 	left:220px;
 	position:absolute;
@@ -252,7 +270,7 @@ z-index:1000;
 #title-a3{
 	float:center;
 	position:absolute;
-	top:390px;
+	top:425px;
 	left:215px;
 	right:0px;
 	z-index:0;
@@ -260,7 +278,7 @@ z-index:1000;
 
 #intro-a-3{
 	float:center;
-	top:420px;
+	top:452px;
 	right:0px;
 	left:220px;
 	position:absolute;
@@ -270,7 +288,7 @@ z-index:1000;
 #title-a4{
 	float:center;
 	position:absolute;
-	top:550px;
+	top:620px;
 	left:215px;
 	right:0px;
 	z-index:0;
@@ -278,7 +296,7 @@ z-index:1000;
 
 #intro-a-4{
 	float:center;
-	top:580px;
+	top:650px;
 	right:0px;
 	left:220px;
 	position:absolute;
@@ -398,17 +416,18 @@ filter: alpha(opacity=75);
 #titleA{
 	float:center;
 	position:absolute;
-	top:-32px;
-	left:325px;
+	top:-25px;
+	left:285px;
 	right:0px;
 	z-index:0;
+	font-size:18px;
 }
 
 #titleB{
 	float:center;
 	position:absolute;
-	top:20px;
-	left:295px;
+	top:15px;
+	left:270px;
 	right:0px;
 	z-index:0;
 }
@@ -427,9 +446,8 @@ filter: alpha(opacity=75);
 #paraA{
 	float:center;
 	position:absolute;
-	top:140px;
-	left:0px;
-	right:10px;
+	top:150px;
+	left:-20px;
 	z-index:0;
 	width:200px;
 }
